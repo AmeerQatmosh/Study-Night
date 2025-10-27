@@ -1,3 +1,26 @@
+# Install dependencies
+npm install
+
+# Start development server
+npm run start
+
+# Build for production (Parcel)
+npm run build
+
+# Run Gulp tasks manually
+npm run gulp
+
+# Run unit tests (Mocha + Chai)
+npm run test
+
+# Open Cypress GUI for E2E tests
+npm run cy:open
+
+# Run Cypress tests headlessly
+npm run cy:run
+
+---
+
 # Optimizing and Testing 
 
 In this Project Students will optimize and test a front-end web application called Study Night, a flashcard tool. Using the skills gained throughout this course, they will create tests to ensure product quality, install and configure necessary project dependencies, and optimize and automate the application tasks.
@@ -103,3 +126,34 @@ npm -v # This should print the latest supported version
 
 ## License
 [License](../LICENSE.md)
+
+
+
+# Study Night 🧠
+_A Udacity Front-End Web Developer Nanodegree Final Project_
+
+Study Night is a flashcard-based web application designed to help students study efficiently.  
+In this project, the application was optimized for production, automated using Gulp, tested using Mocha and Cypress, and linted with ESLint and Prettier to ensure code quality.
+
+---
+
+## 🚀 Features
+- **Interactive Flashcards:** Create and study custom flashcards.
+- **Dynamic Navigation:** Seamless page navigation between Home, About, and Card Sets.
+- **Form Validation:** Includes both happy and unhappy path testing for input forms.
+- **Automated Optimization:** Gulp and Parcel automate builds and file optimization.
+- **Complete Test Coverage:** Unit and end-to-end testing for quality assurance.
+- **Manually Optimized CSS:** All selectors simplified and redundant styles removed.
+
+---
+
+## 🧩 Project Setup
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/AmeerQatmosh/Study-Night.git
+cd Study-Night
+
+### 2. Install Dependencies
+```bash
+npm install

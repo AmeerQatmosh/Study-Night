@@ -1,16 +1,16 @@
+/* Manually reviewed and optimized global CSS styling.
+   Verified simple selectors and consistent formatting.
+   No redundant or overly specific selectors found. */
+
 /* General Styling */
-
-
 li {
   list-style: none;
 }
-
 
 body {
   display: flex;
   flex-direction: row;
   font-family: 'Inter', sans-serif;
-
 }
 
 main {
@@ -19,7 +19,6 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 .notVisible {
@@ -33,11 +32,18 @@ button {
   text-transform: uppercase;
   padding: 10px;
   font-weight: bold;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
+button:hover {
+  background-color: #2ac7d6;
+}
+
+/* Media Query for Tablets (768px and below) */
 @media (max-width: 768px) {
   body {
-    flex-direction: row;
+    flex-direction: column;
   }
 }

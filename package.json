@@ -1,0 +1,35 @@
+{
+  "name": "study-night",
+  "version": "1.0.0",
+  "description": "Study Night - Flashcard app optimization and testing project",
+  "type": "module",
+  "license": "MIT",
+  "author": "Ameer Qatmosh",
+  "scripts": {
+    "start": "gulp",
+    "build": "parcel build index.html",
+    "test": "gulp test",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmeerQatmosh/Study-Night.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AmeerQatmosh/Study-Night/issues"
+  },
+  "homepage": "https://github.com/AmeerQatmosh/Study-Night#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.38.0",
+    "chai": "^6.2.0",
+    "cypress": "^15.5.0",
+    "eslint": "^9.38.0",
+    "globals": "^16.4.0",
+    "gulp": "^5.0.1",
+    "gulp-cli": "^3.1.0",
+    "gulp-shell": "^0.6.3",
+    "mocha": "^11.7.4",
+    "parcel": "^2.16.0"
+  }
+}

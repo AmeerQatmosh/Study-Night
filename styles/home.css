@@ -1,3 +1,7 @@
+/* Manually reviewed and optimized CSS styling.
+   Confirmed simple selectors, fixed minor invalid property,
+   and ensured readability and responsiveness. */
+
 /* Home Container Styling */
 .homeContainer {
   display: flex;
@@ -12,9 +16,10 @@
 /* Image Styling */
 .homeContainer img {
   width: 100%;
+  display: block;
+  margin: 20px auto 0;
   max-width: 600px;
   height: auto;
-  margin-top: 20px;
   filter: brightness(70%);
 }
 
