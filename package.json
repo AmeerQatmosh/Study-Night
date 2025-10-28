@@ -6,9 +6,12 @@
   "license": "MIT",
   "author": "Ameer Qatmosh",
   "scripts": {
-    "start": "gulp",
-    "build": "parcel build index.html",
+    "serve": "gulp",
+    "build": "npx parcel build index.html",
     "test": "gulp test",
+    "lint": "eslint src",
+    "lint:fix": "eslint src --fix",
+    "format": "prettier --write .",
     "cy:open": "cypress open",
     "cy:run": "cypress run"
   },
@@ -24,12 +27,15 @@
     "@eslint/js": "^9.38.0",
     "chai": "^6.2.0",
     "cypress": "^15.5.0",
-    "eslint": "^9.38.0",
+    "eslint": "^8.57.1",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-cypress": "^2.13.2",
     "globals": "^16.4.0",
     "gulp": "^5.0.1",
     "gulp-cli": "^3.1.0",
     "gulp-shell": "^0.6.3",
     "mocha": "^11.7.4",
-    "parcel": "^2.16.0"
+    "parcel": "^2.16.0",
+    "prettier": "^3.6.2"
   }
 }

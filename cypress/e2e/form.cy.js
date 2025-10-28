@@ -55,7 +55,6 @@ describe("Form functionality", () => {
     });
   });
 
-
   it("shows error when adding empty card (unhappy path)", () => {
     cy.get("#cardSetPage").click();
     cy.get(".setContainer .cardSets").first().click();

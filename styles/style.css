@@ -10,7 +10,7 @@ li {
 body {
   display: flex;
   flex-direction: row;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 main {

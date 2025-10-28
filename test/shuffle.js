@@ -1,9 +1,9 @@
 /* eslint-env mocha */
-import { expect } from 'chai';
-import { shuffle } from '../src/shuffle.js';
+import { expect } from "chai";
+import { shuffle } from "../src/shuffle.js";
 
-describe('shuffle function', () => {
-  it('should shuffle the indexes of an array', () => {
+describe("shuffle function", () => {
+  it("should shuffle the indexes of an array", () => {
     const original = [1, 2, 3, 4, 5];
 
     // permutation check: same items after shuffle
