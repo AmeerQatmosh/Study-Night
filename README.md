@@ -4,7 +4,7 @@ npm install
 
 # Start development server
 
-npm run start
+npm run serve
 
 # Build for production (Parcel)
 
@@ -17,6 +17,15 @@ npm run gulp
 # Run unit tests (Mocha + Chai)
 
 npm run test
+
+# Check and fix linting:
+
+npm run lint
+npm run lint:fix
+
+# Format code with Prettier:
+
+npm run format
 
 # Open Cypress GUI for E2E tests
 
